@@ -1,7 +1,32 @@
 
-@import url(https://fonts.googleapis.com/css?family=Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic);
 
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+@import "header.css";
+@import "intro.css";
+@import "about.css";
+@import "features.css";
+@import "testimonials.css";
+@import "footer.css";
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
 body {
-    font-family: Ubuntu;
+    font-family: 'Ubuntu', sans-serif;
+    color: #4B5D68;
+    font-size: 18px;
+    box-sizing: border-box;
+    background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
+}
+a {
+    text-decoration: none;
 }
 
